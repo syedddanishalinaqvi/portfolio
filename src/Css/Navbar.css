@@ -1,0 +1,11 @@
+.nav-item:hover{
+    border-bottom:solid 2px white; 
+}
+.navbar{
+    background-color: #343434;
+}
+div{
+    display:block
+}
+
+

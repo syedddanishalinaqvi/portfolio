@@ -1,0 +1,26 @@
+.app{
+    background-image: url("./background.jpg");
+    background-repeat: no-repeat;
+    height:auto;
+    width:100%;
+    font-family: 'Montserrat', sans-serif;
+}
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background:white; 
+    border: solid 1px;       /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: black;    /* color of the scroll thumb */
+    border-radius: 10px;       /* roundness of the scroll thumb */
+    border: 1px solid white;  /* creates padding around scroll thumb */
+  }
+  
